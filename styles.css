@@ -1,17 +1,21 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #222;
+    
   }
+  
     
   .emoji {
     border: 1px solid #222;
     border-radius: 8px;
     padding: 1rem;
+    
   }
   
   .emoji h2 {
     margin: 0;
     border-bottom: 2px solid #ccc;
+    order: 2;
   }
   
   .emoji a {
@@ -20,10 +24,18 @@ body {
     color: white;
     padding: 1rem;
     border-radius: 8px;
+    align-self: stretch;
+    order: 4;
   }
   
   .icon {
     font-size: 4rem;
+    order: 1;
+    align-self: center;
+  }
+
+  .emoji p {
+    order: 3;
   }
 
   .emojis{
@@ -41,8 +53,9 @@ body {
     flex-direction: column;
     flex-wrap: nowrap;
    justify-content: space-evenly;
-   align-items: stretch;
+   
+
 }
 
 
-  
+
